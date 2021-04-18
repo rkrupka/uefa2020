@@ -3,6 +3,9 @@
 #include "Formation.h"
 #include "Overall.h"
 #include "Person.h"
+#include "Player.h"
+#include "Coach.h"
+#include "Team.h"
 
 using namespace std;
 
@@ -21,12 +24,14 @@ int main()
 
      Tstat.reset(wsk_stat);
 
-    //Tstat.basic_stat = Tstat.reset(Tstat.basic_stat);
-    //Tstat.match_rate = Tstat.reset(Tstat.match_rate);
-
     cout << "Bazowa punktacja: " << Tstat.basic_stat <<
     ", zas wspolczynnik meczowy to: " << Tstat.match_rate <<
      "." << endl;
+
+     Coach trener;
+
+     trener.charisma = 100;
+     cout << trener.charisma << endl;
 
     return 0;
 }
