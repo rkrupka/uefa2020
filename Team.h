@@ -4,10 +4,12 @@
 // Plik: Team.h
 //////////////////////////////////////////
 #include <iostream>
+#include "Player.h"
+#include "Coach.h"
+#include "Formation.h"
 using namespace std;
 
-class Team
-    : public Player, public Coach
+class Team: public Player, public Coach
 {
   public:
     Player play1;
@@ -30,5 +32,7 @@ class Team
     int defence_power;
 
     Formation tact;
+
+    Team(enum nationality);
 };
 #endif

@@ -4,6 +4,7 @@
 // Plik: Coach.h
 //////////////////////////////////////////
 #include <iostream>
+#include "Person.h"
 using namespace std;
 
 class Coach : public Person

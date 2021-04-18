@@ -35,5 +35,7 @@ int main()
      trener.charisma = 100;
      cout << trener.charisma << endl;
 
+     //cout <<
+
     return 0;
 }

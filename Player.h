@@ -4,6 +4,8 @@
 // Plik: Player.h
 //////////////////////////////////////////
 #include <iostream>
+#include "Person.h"
+#include "Overall.h"
 using namespace std;
 
 class Player : public Person

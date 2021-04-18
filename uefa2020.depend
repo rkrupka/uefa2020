@@ -1,12 +1,15 @@
 # depslib dependency file v1.0
-1618741164 source:d:\code blocks\uefa2020\main.cpp
+1618761107 source:d:\code blocks\uefa2020\main.cpp
 	<iostream>
 	<string>
+	<cstdlib>
+	<ctime>
 	"Formation.h"
 	"Overall.h"
 	"Person.h"
 	"Player.h"
 	"Coach.h"
+	"Team.h"
 
 1618566211 d:\code blocks\uefa2020\formation.h
 	<iostream>
@@ -17,9 +20,22 @@
 1618602208 d:\code blocks\uefa2020\person.h
 	<iostream>
 
-1618741438 d:\code blocks\uefa2020\player.h
+1618761642 d:\code blocks\uefa2020\player.h
 	<iostream>
+	"Person.h"
+	"Overall.h"
 
-1618741453 d:\code blocks\uefa2020\coach.h
+1618761621 d:\code blocks\uefa2020\coach.h
+	<iostream>
+	"Person.h"
+
+1618761671 d:\code blocks\uefa2020\team.h
+	<iostream>
+	"Player.h"
+	"Coach.h"
+	"Formation.h"
+
+1618761457 source:d:\code blocks\uefa2020\team.cpp
+	"Team.h"
 	<iostream>
 
