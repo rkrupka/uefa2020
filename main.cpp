@@ -1,5 +1,7 @@
 #include <iostream>
 #include <string>
+#include <cstdlib>
+#include <ctime>
 #include "Formation.h"
 #include "Overall.h"
 #include "Person.h"
