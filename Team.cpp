@@ -6,7 +6,8 @@
 
 using namespace std;
 
-Team::Team(enum nationality)
+/*Team::Team(enum nationality)
 {
 
 }
+*/

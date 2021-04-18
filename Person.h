@@ -27,7 +27,6 @@ class Person
          AUT,
          TUR,
          RUS,
-
      };
      enum league
      {

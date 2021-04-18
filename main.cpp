@@ -13,29 +13,8 @@ using namespace std;
 
 int main()
 {
-    Overall Tstat;
-
-    Tstat.basic_stat = 70;
-    Tstat.match_rate = 10;
-    int *wsk_stat;
-    wsk_stat = &Tstat.match_rate;
-
-    cout << "Bazowa punktacja: " << Tstat.basic_stat <<
-    ", zas wspolczynnik meczowy to: " << Tstat.match_rate <<
-     "." << endl;
-
-     Tstat.reset(wsk_stat);
-
-    cout << "Bazowa punktacja: " << Tstat.basic_stat <<
-    ", zas wspolczynnik meczowy to: " << Tstat.match_rate <<
-     "." << endl;
-
-     Coach trener;
-
-     trener.charisma = 100;
-     cout << trener.charisma << endl;
-
-     //cout <<
+    Coach trener;
+    //trener.nationality = 0;
 
     return 0;
 }
