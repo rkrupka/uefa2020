@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1618577599 source:d:\code blocks\uefa2020\main.cpp
+	<iostream>
+	<string>
+	"Formation.h"
+	"Overall.h"
+	"Person.h"
+
+1618566211 d:\code blocks\uefa2020\formation.h
+	<iostream>
+
+1618666243 d:\code blocks\uefa2020\overall.h
+	<iostream>
+
+1618602208 d:\code blocks\uefa2020\person.h
+	<iostream>
+
